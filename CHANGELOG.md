@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/w4bo/docker-oracle11g-java/compare/1.0.0...1.0.1) (2024-04-05)
+
+
+### Bug Fixes
+
+* **Dockerfile:** fix the database export ([e5f4dc3](https://github.com/w4bo/docker-oracle11g-java/commit/e5f4dc3afeb396976019301649ebf888ca1cc828))
+
 ## 1.0.0 (2024-04-05)
 
 
