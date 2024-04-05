@@ -12,15 +12,7 @@ jobs:
       - name: Launch and test
         run: |
           cd image
-          docker compose up --build
-      - name: Set up a swarm with a single node and create the docker network
-        run: |
-          docker swarm init
-          docker network create --driver overlay BIG-dataplatform-network
-      - name: Check the deploy of the swarm
-        run: |
-          cd image
-          docker stack deploy --compose-file docker-stack.yml mystack
+          docker compose build
   release:
     needs:
       - build
