@@ -1,4 +1,4 @@
-# Oracle 11g with Java 14
+# Oracle 11g with Java
 
 ## Set up
 
