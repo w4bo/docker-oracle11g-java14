@@ -39,7 +39,7 @@ jobs:
         id: meta1
         uses: docker/metadata-action@c314eea2b27e3cb3c7d7be0618510234d8f6178e
         with:
-          images: ${{ secrets.DOCKER_IMAGENAME }}
+          images: ${{ secrets.DOCKER_USERNAME }}/${{ secrets.DOCKER_IMAGENAME }}
           tags: |
             ${{steps.tag.outputs.version}}
             latest
